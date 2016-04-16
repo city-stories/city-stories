@@ -30,12 +30,13 @@ let EventMap = React.createClass({
         const marker = new SimpleMarkerSymbol("solid", 15, null, orangeGreen);
         const renderer = new SimpleRenderer(marker);
         csv.setRenderer(renderer);
-        const template = new InfoTemplate("${type}", "${place}");
-        csv.setInfoTemplate(template);
+        // const template = new InfoTemplate("${type}", "${place}");
+        // csv.setInfoTemplate(template);
         map.addLayer(csv);
 
         map.on('click',  function(event) {
             console.log(event.mapPoint);
+            map.centerAt(event.mapPoint);
         });
 
     },
