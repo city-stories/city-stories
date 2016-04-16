@@ -6,6 +6,6 @@ install:
   - npm install
 
 script:
-  - eslint .
+  - npm run lint
   - gulp build
-  - nyc ava test/*
+  - npm test

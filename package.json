@@ -4,7 +4,8 @@
   "main": "build/app.js",
   "scripts": {
     "start": "gulp clean && gulp build && node build/app.js | bunyan",
-    "test": "nyc ava tests.js"
+    "test": "nyc ava test/*",
+    "lint": "eslint ."
   },
   "keywords": [
     "koa",
