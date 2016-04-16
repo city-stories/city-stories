@@ -10,6 +10,7 @@ const mapStateToProps = (state) => {
 let EventMap = function () {
   return (
     <section>
+        <h1>Hi merge conflict!</h1>
 
     </section>
   );
