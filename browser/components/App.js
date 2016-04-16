@@ -1,5 +1,6 @@
 import React from 'react';
 import AddTodo from './AddTodo';
+import Todo from './Todo';
 import HelloWorld from './HelloWorld';
 import { connect } from 'react-redux';
 
@@ -13,7 +14,7 @@ let App = ({ todos }) => {
   const todolist = [];
 
   todos.forEach((todo) => {
-    todolist.push(<Todo todo="todo" />);
+    todolist.push(<Todo todo={todo} />);
   });
 
   return (
@@ -24,6 +25,10 @@ let App = ({ todos }) => {
       <AddTodo />
     </div>
   );
+};
+
+App.propTypes = {
+  todos: React.PropTypes.object.isRequired
 };
 
 App = connect(mapStateToProps)(App);

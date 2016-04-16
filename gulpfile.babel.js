@@ -43,7 +43,7 @@ gulp.task('clean', (cb) => {
   del([paths.build, paths.public], () => cb());
 });
 
-gulp.task('test', (cb) => {
+gulp.task('test', () => {
   gulp.src('test/*.spec.js')
       .pipe(ava());
 });
