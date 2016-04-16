@@ -1,8 +1,24 @@
 {
-  "users": {
-    "d0d24a10-3512-434f-8bd2-a0da7d83d24e": { "id": "d0d24a10-3512-434f-8bd2-a0da7d83d24e", "name": "Doug Wade", "role": "City Planner", "email": "doug@dougwade.io" }
-  },
-  "events": {
-    "3a4d4c98-2bd8-49fe-a499-3d6bf3ead111": { "id": "3a4d4c98-2bd8-49fe-a499-3d6bf3ead111", "name": "Angel Hackathon", "location": { "lat": "47.6062N", "lon": ", 122.3321W", "name": "Seattle" }, "date": 1460827061560 }
-  }
+  "d0d24a10-3512-434f-8bd2-a0da7d83d24e": { "id": "d0d24a10-3512-434f-8bd2-a0da7d83d24e", "name": "ava", "link": "https://github.com/sindresorhus/gulp-ava", "done": false },
+  "f2877dce-428e-4fd4-b3dd-9baee4326167": { "id": "f2877dce-428e-4fd4-b3dd-9baee4326167", "name": "babel", "link": "https://babeljs.io/", "done": false },
+  "e68eeb0f-9396-437f-aaed-166a71375a62": { "id": "e68eeb0f-9396-437f-aaed-166a71375a62", "name": "browserify", "link": "http://browserify.org/", "done": false },
+  "41e34733-3148-46ff-8af3-26efc017a6bd": { "id": "41e34733-3148-46ff-8af3-26efc017a6bd", "name": "gulp", "link": "https://gulpjs.com", "done": false },
+  "3a4d4c98-2bd8-49fe-a499-3d6bf3ead111": { "id": "3a4d4c98-2bd8-49fe-a499-3d6bf3ead111", "name": "koa", "link": "https://koajs.com", "done": false },
+  "a4d442db-f71d-4a0c-812a-b485605fff71": { "id": "a4d442db-f71d-4a0c-812a-b485605fff71", "name": "react", "link": "https://facebook.github.io/react/", "done": false },
+  "333f504c-701b-46f8-adbe-b8234ec4de92": { "id": "333f504c-701b-46f8-adbe-b8234ec4de92", "name": "redux", "link": "https://redux.js.org", "done": false }
+}
+{"users":{
+    {"id":"a56992de-abcf-4ff6-a4dd-5e473e495a5a", "Name":"John", "authArray":"[1]",  "title":"Doe"},
+    {"id":"f5e82e5e-317b-4372-9c7b-f63283cc7a5f", "Name":"John", "authArray":"[2]",  "title":"Doe"},
+    {"id":"8f6ecc94-5f18-4d00-9321-0522caf8b38a", "Name":"John", "authArray":"[3]",  "title":"Doe"},
+    {"id":"a4fd2a6d-9908-4441-9d16-52092397b47a", "Name":"John", "authArray":"[4]",  "title":"Doe"},
+    {"id":"6ecb9dcb-5443-4eb3-ad25-34af5a56999e", "Name":"John", "authArray":"[5]",  "title":"Doe"},
+    {"id":"323fd840-840a-4a6e-9893-04beae6eff06", "Name":"John", "authArray":"[6]",  "title":"Doe"},
+    {"id":"0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da", "Name":"John", "authArray":"[7]",  "title":"Doe"}
+}
+"events":{
+    {"eventID":"b318d4ba-75c5-43e9-ad65-950813b93756", "location":"41°24'12.2"N 2°10'26.5"E", "posterID":"a56992de-abcf-4ff6-a4dd-5e473e495a5a", "category":"1", "description":"Help Puppies", "title":"Puppython", "date":"01/03/2016", "time":"13:00", "attendees":"a56992de-abcf-4ff6-a4dd-5e473e495a5a"},
+    {"eventID":"2b0ba08c-a883-410b-b51f-3b7fb93c5da9", "location":"41°24'12.2"N 2°10'26.5"E", "posterID":"f5e82e5e-317b-4372-9c7b-f63283cc7a5f", "category":"2", "description":"Help Kittens", "title":"Kittython", "date":"02/03/2016", "time":"13:00", "attendees":"a56992de-abcf-4ff6-a4dd-5e473e495a5a"},
+    {"eventID":"c5afcef9-3592-4c09-bd57-adc23a88d4b6", "location":"41°24'12.2"N 2°10'26.5"E", "posterID":"8f6ecc94-5f18-4d00-9321-0522caf8b38a", "category":"3", "description":"Help Fish", "title":"Fishiethon", "date":"03/03/2016", "time":"13:00", "attendees":"a56992de-abcf-4ff6-a4dd-5e473e495a5a"},
+    {"eventID":"7bd7624c-48ad-4cc9-8110-06ea0a123fd4", "location":"41°24'12.2"N 2°10'26.5"E", "posterID":"a4fd2a6d-9908-4441-9d16-52092397b47a", "category":"4", "description":"Help Hampster", "title":"Hampsterthon", "date":"04/03/2016", "time":"13:00", "attendees":"a56992de-abcf-4ff6-a4dd-5e473e495a5a"}
 }
