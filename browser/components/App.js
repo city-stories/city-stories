@@ -20,10 +20,6 @@ let App = ({ todos }) => {
 
   return (
     <div className="wrapper">
-      <HelloWorld />
-      <h2>Todos</h2>
-      {todolist}
-      <AddTodo />
       <EventMap />
     </div>
   );

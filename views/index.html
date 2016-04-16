@@ -5,14 +5,46 @@
     <title>city-stories</title>
     <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
     <link rel="stylesheet" href="https://js.arcgis.com/3.16/esri/css/esri.css">
-    <script src="https://js.arcgis.com/3.16/"></script>
     <link rel="stylesheet" href="app.css" title="app-styles">
   </head>
+  <script src="https://js.arcgis.com/3.14/"></script>
+  <script>
+      require([
+          "esri/map",
+          "esri/layers/CSVLayer",
+          "esri/Color",
+          "esri/symbols/SimpleMarkerSymbol",
+          "esri/renderers/SimpleRenderer",
+          "esri/InfoTemplate",
+          "esri/urlUtils",
+          "dojo/domReady!"
+      ], function(){
+          esriConfig.defaults.io.proxyUrl = "/";
+          esriConfig.defaults.io.alwaysUseProxy = false;
+          esriConfig.defaults.io.corsDetection = false;
 
+          function makeid()
+          {
+              var text = "";
+              var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+              for( var i=0; i < 5; i++ )
+                  text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+              return text;
+          }
+          esriConfig.defaults.io.alwaysUseProxy = false;
+          esriConfig.defaults.io.corsDetection = false;
+
+          // insert bundle script tag
+          var scriptTag = document.createElement('script');
+          scriptTag.src = "app.js?" + makeid();
+          document.body.appendChild(scriptTag);
+      });
+  </script>
   <body>
     <h1>city-stories</h1>
     <div id="application-root"></div>
-    <script src="app.js"></script>
   </body>
 
 </html>
