@@ -33,6 +33,10 @@ let EventMap = React.createClass({
         const template = new InfoTemplate("${type}", "${place}");
         csv.setInfoTemplate(template);
         map.addLayer(csv);
+
+        map.on('click',  function executeQuery(event) {
+            console.log(event);
+        });
     },
 
     render(){
