@@ -4,12 +4,12 @@
 
 ## Getting Started
 
-To start the server, just run `npm start` and navigate to
+To start the server, first install the dependencies with `npm install`, then run `npm start` and navigate to
 [localhost:3000](http://localhost:3000) in your favorite browser.
 
-To install the build toolchain
+To develop against the stack, you'll likely want to install the build toolchain
 
-    npm install -g gulp bunyan babel
+    npm install -g gulp bunyan babel eslint nyc ava eslint
 
 
 ## Directory structure
@@ -29,7 +29,7 @@ hazy, and you can free require between them and reasonably expect it to work.
 
 ## Running the tests
 
-To run the tests, run `npm test`, or `gulp build && gulp test`, or `ava test/*.js`.
+To run the tests, run `npm test`, or `nyc ava test/*.js`.
 
 
 ## More in depth

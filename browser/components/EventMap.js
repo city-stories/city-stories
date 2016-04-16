@@ -1,7 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import {GoogleMapLoader, GoogleMap, Marker} from "react-google-maps";
-//import { getExcited } from '../actions';
 
 const mapStateToProps = (state) => {
   return {
@@ -9,13 +7,13 @@ const mapStateToProps = (state) => {
   };
 };
 
-let EventMap = function(props) {
+let EventMap = function () {
   return (
     <section>
 
     </section>
   );
-}
+};
 
 EventMap = connect(mapStateToProps)(EventMap);
 
