@@ -2,7 +2,7 @@ import React from 'react';
 import AddTodo from './AddTodo';
 import Todo from './Todo';
 import HelloWorld from './HelloWorld';
-import EventMap from './EventMap'
+import EventMap from './EventMap';
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => {
