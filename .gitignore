@@ -1,5 +1,6 @@
 build
 public
+.nyc_output
 
 # Github defaults only below this comment
 
