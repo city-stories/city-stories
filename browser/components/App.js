@@ -1,38 +1,20 @@
 import React from 'react';
-import AddTodo from './AddTodo';
-import Todo from './Todo';
 import HelloWorld from './HelloWorld';
 import EventMap from './EventMap';
+import Navigation from './Navigation';
 import { connect } from 'react-redux';
+import '../styles/app.css';
 
-const mapStateToProps = (state) => {
-  return {
-    todos: state.todos
-  };
-};
-
-let App = ({ todos }) => {
-  const todolist = [];
-
-  todos.forEach((todo) => {
-    todolist.push(<Todo todo={todo} />);
-  });
-
+let App = () => {
   return (
     <div className="wrapper">
       <HelloWorld />
-      <h2>Todos</h2>
-      {todolist}
-      <AddTodo />
+      <Navigation />
       <EventMap />
     </div>
   );
 };
 
-App.propTypes = {
-  todos: React.PropTypes.object.isRequired
-};
-
-App = connect(mapStateToProps)(App);
+App = connect()(App);
 
 export default App;

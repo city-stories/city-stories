@@ -3,7 +3,7 @@ import babel from 'gulp-babel';
 import babelify from 'babelify';
 import browserify from 'browserify';
 import buffer from 'vinyl-buffer';
-import cleanCSS from 'gulp-clean-css';
+import cssify from 'cssify';
 import del from 'del';
 import gulp from 'gulp';
 import gutil from 'gulp-util';
@@ -25,7 +25,7 @@ gulp.task('browser', () => {
   // set up the browserify instance on a task basis
   const b = browserify({
     entries: './browser/app.js',
-    transform: [babelify, reactify]
+    transform: [babelify, reactify, cssify]
   });
 
   return b.bundle()
@@ -48,12 +48,6 @@ gulp.task('test', () => {
       .pipe(ava());
 });
 
-gulp.task('styles', () => {
-  gulp.src(paths.styles)
-      .pipe(cleanCSS())
-      .pipe(gulp.dest(paths.public));
-});
-
 gulp.task('scripts', () => {
   gulp.src(paths.server)
       .pipe(babel())
@@ -68,7 +62,7 @@ gulp.task('views', () => {
       .pipe(gulp.dest(paths.public));
 });
 
-gulp.task('build', ['scripts', 'styles', 'views', 'browser']);
+gulp.task('build', ['scripts', 'views', 'browser']);
 gulp.task('watch', () => {
   gulp.watch('browser/**/*', ['browser']);
   gulp.watch('styles/*', ['styles']);
