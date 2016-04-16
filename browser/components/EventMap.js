@@ -34,9 +34,10 @@ let EventMap = React.createClass({
         csv.setInfoTemplate(template);
         map.addLayer(csv);
 
-        map.on('click',  function executeQuery(event) {
-            console.log(event);
+        map.on('click',  function(event) {
+            console.log(event.mapPoint);
         });
+
     },
 
     render(){
