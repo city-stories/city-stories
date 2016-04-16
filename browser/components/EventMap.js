@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import {GoogleMapLoader, GoogleMap, Marker} from "react-google-maps";
-//import { getExcited } from '../actions';
 
 const mapStateToProps = (state) => {
   return {
