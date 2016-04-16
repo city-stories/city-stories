@@ -1,3 +1,4 @@
+import json2csv from 'json2csv';
 import logger from './logger';
 import db from './db';
 
@@ -18,17 +19,29 @@ export default function register(router) {
  *     returns:
  *     csv
  */
-function getCsv(ctx, next) {
-  const id = ctx.params.id;
-  logger.info(`getting events for map as a csv ${id}`);
+async function getCsv(ctx, next) {
   const events = db.getEvents();
   if (!events) {
     logger.warn('Got no events');
     ctx.body = {};
   } else {
     logger.debug(`Got events ${JSON.stringify(events)}`);
+    const eventArr = [];
+    Object.keys(events).forEach((id) => {
+      eventArr.push(events[id]);
+    });
     ctx.set('X-content-type', 'text/csv');
-    ctx.body = events;
+    const csvPromise = new Promise((resolve, reject) => {
+      json2csv({data: eventArr}, (err, csv) => {
+        if (err) {
+          reject(err);
+        }
+        resolve(csv);
+      });
+    });
+    const csv = await csvPromise;
+    logger.info(`${csv}`);
+    ctx.body = csv;
   }
   return next();
 }
