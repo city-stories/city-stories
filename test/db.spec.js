@@ -67,3 +67,10 @@ test('Updates events', t => {
     t.is(updated[attr], eventFixture[attr]);
   });
 });
+
+// Roles
+
+test('Gets all roles', t => {
+  const roles = db.getRoles();
+  t.true(Object.keys(roles).length > 0);
+});

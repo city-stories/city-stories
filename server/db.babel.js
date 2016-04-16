@@ -63,6 +63,10 @@ export default {
 
   updateEvent: (event) => {
     return update('events', event);
+  },
+
+  getRoles: () => {
+    return getAll('roles');
   }
 };
 

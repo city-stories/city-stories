@@ -11,6 +11,7 @@ import bunyan from 'koa-bunyan';
 import logger from './logger';
 import eventCtrl from './eventCtrl';
 import mapCtrl from './mapCtrl';
+import roleCtrl from './roleCtrl';
 import userCtrl from './userCtrl';
 
 app.use(bunyan(logger, {
@@ -21,6 +22,7 @@ app.use(bodyParser());
 
 eventCtrl(router);
 mapCtrl(router);
+roleCtrl(router);
 userCtrl(router);
 
 app.use(serve('public/'));
