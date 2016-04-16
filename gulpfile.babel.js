@@ -69,3 +69,8 @@ gulp.task('views', () => {
 });
 
 gulp.task('build', ['scripts', 'styles', 'views', 'browser']);
+gulp.task('watch', () => {
+  gulp.watch('browser/**/*', ['browser']);
+  gulp.watch('styles/*', ['styles']);
+  gulp.watch('views/*', ['views']);
+});
