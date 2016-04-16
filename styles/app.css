@@ -19,3 +19,14 @@ body {
     background-color: #F8F8F8;
     border-color: #E7E7E7;
 }
+
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ #map {
+     height: 1000px;
+ }
