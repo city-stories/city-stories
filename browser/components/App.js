@@ -16,8 +16,6 @@ let App = ({ dispatch }) => {
 
   return (
     <div className="wrapper">
-      <HelloWorld />
-      <Navigation />
       <EventMap />
     </div>
   );

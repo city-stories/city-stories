@@ -21,15 +21,13 @@ body {
     border-color: #E7E7E7;
 }
 
-#blockLeft{
-  width: 50%;
-  vertical-align: top;
-  display: inline-block;
-  float: left;
+html, body, #map {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-#blockRight{
-  width: 50%;
-  vertical-align: top;
-  display: inline-block;
-  float: left;
-}
+
+ #map {
+     height: 1000px;
+ }
