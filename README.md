@@ -27,9 +27,12 @@ same as on the server, so the distinction between browser and server is a little
 hazy, and you can free require between them and reasonably expect it to work.
 
 
-## Running the tests
+## Testing your code
 
-To run the tests, run `npm test`, or `nyc ava test/*.js`.
+To run the linter, run `npm run lint`.
+To run the tests, run `npm test`.
+To run in watch mode, run `gulp watch`.
+To check that the code builds, run `gulp build`.
 
 
 ## More in depth
