@@ -5,37 +5,64 @@ import uuid from 'uuid';
 const dbLoc = path.join(__dirname, '..', 'db.json');
 const db = JSON.parse(fs.readFileSync(dbLoc));
 
+let add = (key, obj) => {
+  obj.id = uuid.v4();
+  db[key][obj.id] = obj;
+  write();
+  return obj;
+};
+
+let get = (key, id) => {
+  return db[key][id];
+};
+
+let getAll = (key) => {
+  const active = {};
+  Object.keys(db[key]).forEach((id) => {
+    if (!db[key][id].inactive) {
+      active[id] = db[key][id];
+    }
+  });
+  return active;
+};
+
+let update = (key, obj) => {
+  db[key][obj.id] = obj;
+  write();
+  return db[obj.id];
+};
+
 export default {
-  addTodo: (todo) => {
-    todo.id = uuid.v4();
-    db[todo.id] = todo;
-    write();
-    return todo;
+  addUser: (user) => {
+    return add('users', user);
   },
 
-  getTodo: (id) => {
-    return db[id];
+  getUser: (id) => {
+    return get('users', id);
   },
 
-  completeTodo: (id) => {
-    db[id].done = true;
-    write();
+  getUsers: () => {
+    return getAll('users');
   },
 
-  getTodos: () => {
-    const incomplete = {};
-    Object.keys(db).forEach((todo) => {
-      if (!db[todo].done) {
-        incomplete[todo] = db[todo];
-      }
-    });
-    return incomplete;
+  updateUser: (user) => {
+    return update('users', user);
   },
 
-  updateTodo: (todo) => {
-    db[todo.id] = todo;
-    write();
-    return db[todo.id];
+  addEvent: (event) => {
+    return add('events', event);
+  },
+
+  getEvent: (id) => {
+    return get('events', id);
+  },
+
+  getEvents: () => {
+    return getAll('events');
+  },
+
+  updateEvent: (event) => {
+    return update('events', event);
   }
 };
 

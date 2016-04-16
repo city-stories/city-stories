@@ -7,16 +7,16 @@ import db from './db';
  * @param {Object} router the koa router object.
  */
 export default function register(router) {
-  router.post('/todo', upsert);
-  router.get('/todo/:id', get);
-  router.get('/todo', getAll);
+  router.post('/event', upsert);
+  router.get('/event/:id', get);
+  router.get('/event', getAll);
 }
 
 /**
- * Creates or updates a todo.
+ * Creates or updates a event.
  *
  * @example
- *     POST /todo/
+ *     POST /event/
  *     body:
  *     {
  *       "name": "koa",
@@ -25,20 +25,20 @@ export default function register(router) {
  *     }
  */
 function upsert(ctx, next) {
-  const todo = ctx.request.body;
-  logger.info(`upserting todo ${JSON.stringify(todo)}`);
+  const event = ctx.request.body;
+  logger.info(`upserting event ${JSON.stringify(event)}`);
 
-  if (todo.id && db.getTodo(todo)) {
-    ctx.body = db.updateTodo(todo);
+  if (event.id && db.getEvent(event)) {
+    ctx.body = db.updateEvent(event);
   } else {
-    ctx.body = db.addTodo(todo);
+    ctx.body = db.addEvent(event);
   }
   return next();
 }
 
 
 /**
- * Gets a todo.
+ * Gets a event.
  *
  * @example
  *     GET /application/3a4d4c98-2bd8-49fe-a499-3d6bf3ead111
@@ -52,23 +52,23 @@ function upsert(ctx, next) {
  */
 function get(ctx, next) {
   const id = ctx.params.id;
-  logger.info(`getting todo by ${id}`);
-  const todo = db.getTodo(id);
-  if (!todo) {
-    logger.warn(`Could not find todo with id ${id}`);
+  logger.info(`getting event by ${id}`);
+  const event = db.getEvent(id);
+  if (!event) {
+    logger.warn(`Could not find event with id ${id}`);
     ctx.body = {};
   } else {
-    logger.info(`Got todo ${JSON.stringify(todo)}`);
-    ctx.body = todo;
+    logger.info(`Got event ${JSON.stringify(event)}`);
+    ctx.body = event;
   }
   return next();
 }
 
 /**
- * Gets all todos.
+ * Gets all events.
  *
  * @example
- *     GET /application
+ *     GET /event
  *     returns:
  *     [{
  *       "name": "koa",
@@ -83,7 +83,7 @@ function get(ctx, next) {
  *     }]
  */
 function getAll(ctx, next) {
-  logger.info('geting all todos');
-  ctx.body = db.getTodos();
+  logger.info('geting all events');
+  ctx.body = db.getEvents();
   return next();
 }
