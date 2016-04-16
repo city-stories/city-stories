@@ -1,4 +1,4 @@
-export default function application(state = { excitement: 0, todos: [] }, action) {
+ export default function application(state = { excitement: 0, todos: [] }, action) {
   let newState;
   switch (action.type) {
   case 'GET_EXCITED': {
