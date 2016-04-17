@@ -21,6 +21,7 @@ const EventDetails = React.createClass({
                 <div>
                   <div>{this.state.selected.name || this.state.selected.title}</div>
                   <div>{this.state.selected.description}</div>
+                  <div>{this.state.selected.date}</div>
                 </div>
             </aside>
         )
