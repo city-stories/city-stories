@@ -15,7 +15,7 @@ let EventList = ({ events }) => {
   });
 
   return (
-    <div>{eventList}</div>
+    <div className="eventList-container">{eventList}</div>
   );
 };
 

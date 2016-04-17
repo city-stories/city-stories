@@ -1,6 +1,4 @@
 import React from 'react';
-
-import EventList from './EventList';
 import EventMap from './EventMap';
 import { connect } from 'react-redux';
 import { updateRoles, updateEvents } from '../actions';
