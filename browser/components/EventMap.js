@@ -15,14 +15,16 @@ let EventMap = React.createClass({
         const SimpleMarkerSymbol =  window.esri.symbol.SimpleMarkerSymbol;
         const SimpleRenderer =  window.esri.renderer.SimpleRenderer;
 
-        var map, csv;
+        var map;
+        var csv;
 
         map = new Map("map", {
           basemap: "gray",
-          center: [ -60, -10 ],
+          center: [-60, -10],
           zoom: 4
         });
-        csv = new CSVLayer("/2.5_week.csv", {
+
+        csv = new CSVLayer("/map", {
           copyright: "USGS.gov"
         });
         const orangeGreen = new Color([77, 194, 71, 0.5]);
@@ -31,18 +33,17 @@ let EventMap = React.createClass({
         csv.setRenderer(renderer);
         map.addLayer(csv);
 
-        map.on('click',  function(event) {
-            console.log(event.mapPoint);
+        csv.on('click', function (event) {
 
             var eventDetails = new CustomEvent("showEventDetails", {
                 detail: {
-                    data: event.mapPoint
+                    data: event.graphic.attributes
                 }
             });
 
             window.dispatchEvent(eventDetails);
 
-            map.centerAt(event.mapPoint)
+            map.centerAt(event.mapPoint);
         });
 
     },
@@ -152,7 +153,7 @@ let EventMap = React.createClass({
           </section>
         );
     }
-})
+});
 
 EventMap = connect(mapStateToProps)(EventMap);
 

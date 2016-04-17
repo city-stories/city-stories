@@ -24,10 +24,6 @@
       "1tbs"
     ],
     "consistent-return": 0,
-    "indent": [
-      2,
-      2
-    ],
     "no-multiple-empty-lines": [
       2,
       {
@@ -45,10 +41,6 @@
     "quote-props": [
       2,
       "as-needed"
-    ],
-    "quotes": [
-      2,
-      "single"
     ],
     "keyword-spacing": ["error", {"before": true, "after": true, "overrides": {}}],
     "space-before-function-paren": [
@@ -98,8 +90,7 @@
     "no-labels": 2,
     "no-lone-blocks": 2,
     "no-loop-func": 2,
-    "no-multi-spaces": 2,
-    "no-multi-str": 2,
+        "no-multi-str": 2,
     "no-native-reassign": 2,
     "no-new": 2,
     "no-new-func": 2,
@@ -124,7 +115,6 @@
     "no-spaced-func": 2,
     "no-trailing-spaces": 2,
     "no-underscore-dangle": 2,
-    "semi": 2,
     "semi-spacing": [
       2,
       {
