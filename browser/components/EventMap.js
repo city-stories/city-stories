@@ -1,7 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
-
+import EventDetails from './EventDetails';
 
 const mapStateToProps = (state) => {
   return {
@@ -30,20 +29,29 @@ let EventMap = React.createClass({
         const marker = new SimpleMarkerSymbol("solid", 15, null, orangeGreen);
         const renderer = new SimpleRenderer(marker);
         csv.setRenderer(renderer);
-        // const template = new InfoTemplate("${type}", "${place}");
-        // csv.setInfoTemplate(template);
         map.addLayer(csv);
 
         map.on('click',  function(event) {
             console.log(event.mapPoint);
-            map.centerAt(event.mapPoint);
+
+            var eventDetails = new CustomEvent("showEventDetails", {
+                detail: {
+                    data: event.mapPoint
+                }
+            });
+
+            window.dispatchEvent(eventDetails);
+
+            map.centerAt(event.mapPoint)
         });
 
     },
 
     render(){
         return (
-          <section id="map">
+          <section>
+              <div id="map"></div>
+              <EventDetails />
           </section>
         );
     }
