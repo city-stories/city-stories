@@ -2,7 +2,7 @@ import React from 'react'
 
 const EventDetails = React.createClass({
     showEventDetails(event){
-        console.log('Event: ', event.detail.data)
+        return event.detail.data;
     },
     componentDidMount() {
         window.addEventListener('showEventDetails', this.showEventDetails);
@@ -18,6 +18,5 @@ const EventDetails = React.createClass({
         )
     }
 })
-
 
 export default EventDetails
