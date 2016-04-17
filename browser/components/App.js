@@ -17,9 +17,14 @@ let App = ({ dispatch }) => {
 
   return (
     <div className="wrapper">
-      <HelloWorld />
+    <div id="containerBlock">
+    <div id="blockLeft">
       <Navigation />
+      </div>
+      <div id="blockRight">
       <EventMap />
+      </div>
+      </div>
     </div>
   );
 };
