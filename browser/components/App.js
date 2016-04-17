@@ -24,7 +24,6 @@ let App = ({ dispatch }) => {
   return (
     <div className="wrapper">
       <EventMap />
-      <EventList />
     </div>
   );
 };
