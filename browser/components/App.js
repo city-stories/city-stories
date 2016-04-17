@@ -2,7 +2,6 @@ import React from 'react';
 import EventMap from './EventMap';
 import { connect } from 'react-redux';
 import { updateRoles } from '../actions';
-import '../styles/app.css';
 
 let App = ({ dispatch }) => {
   var rolesReq = new XMLHttpRequest();
