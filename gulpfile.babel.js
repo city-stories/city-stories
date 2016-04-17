@@ -57,12 +57,17 @@ gulp.task('scripts', () => {
       .pipe(gulp.dest(paths.build));
 });
 
+gulp.task('styles', () => {
+  gulp.src(paths.styles)
+      .pipe(gulp.dest(paths.public));
+});
+
 gulp.task('views', () => {
   gulp.src(paths.views)
       .pipe(gulp.dest(paths.public));
 });
 
-gulp.task('build', ['scripts', 'views', 'browser']);
+gulp.task('build', ['scripts', 'views', 'browser', 'styles']);
 gulp.task('watch', () => {
   gulp.watch('browser/**/*', ['browser']);
   gulp.watch('styles/*', ['styles']);
