@@ -3,6 +3,7 @@ body {
   line-height:1.5;
   color:#34495E;
   margin-bottom:80px;
+  background-color: #34495E;
 }
 
 .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
