@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <title>city-stories</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
-  </head>
-
-  <body>
-    <!--start header navbar-->
+<body>
+  <!--start header navbar-->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -18,7 +10,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
+       
         <a class="navbar-brand" href="#">
           <img alt="Brand" src="http://s24.postimg.org/7ed8c7em9/favelogosmall.png">
         </a>
@@ -58,19 +50,69 @@
   </nav>
   <!--end header navbar-->
 
-    <div id="application-root"></div>
-    <script src="app.js"></script>
+
+  <!--Start body-->
+  <div class="container">
+    <div id="map" class="col-md-6">
+      <!-- Placeholder for map -->
+        <img src="http://placehold.it/550x550">
+      <!-- Placeholder for map -->
+    </div>
+
+    <div id="navigation" class="col-md-6">
+  <h2>Navigation</h2>
+  <div id="section">
+    <ul class="nav nav-pills nav-justified">
+
+      <li class="active"><a data-toggle="pill" href="#all"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span> - ALL</a></li>
+
+      <li><a data-toggle="pill" href="#parks"><span class="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>- Parks & Rec</a></li>
+
+      <li><a data-toggle="pill" href="#emergency"><span class="glyphicon glyphicon-fire" aria-hidden="true"></span> - Emergency</a></li>
+
+      <li><a data-toggle="pill" href="#animal"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> - Animal Ctrl.</a></li>
+
+      <li><a data-toggle="pill" href="#events"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span> - Events</a></li>
+
+      <div class="tab-content">
+
+        <div id="all" class="tab-pane fade in active">
+          <h3>All</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div id="parks" class="tab-pane fade">
+          <h3>Parks</h3>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div id="emergency" class="tab-pane fade">
+          <h3>Emergency</h3>
+          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+        </div>
+        <div id="animal" class="tab-pane fade">
+          <h3>Animal</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+        <div id="events" class="tab-pane fade">
+          <h3>Events</h3>
+          <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+        </div>
+      </div>
+
+    </ul>
+  </div>
+</div>
+    <!--End Body-->
 
 
-   <!--Start Footer-->
+    <!--Start Footer-->
     <div class="navbar navbar-inverse navbar-fixed-bottom">
     <div class="container">
-      <p class="navbar-text"><a href="https://github.com/city-stories/city-stories">Site Built By the City Stories team</a></p>
+      <p class="navbar-text">Site Built By Elijah Rhyne</p>
       <a id="contactUs" href="mailto:help@citystory.com" class="navbar-btn btn-danger btn pull-right">Contact City Story</a>
     </div>
     </div>
     <!--End Footer-->
 
-  </body>
+</body>
 
 </html>
