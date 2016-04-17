@@ -4,7 +4,6 @@ import EventMap from './EventMap';
 import Navigation from './Navigation';
 import { connect } from 'react-redux';
 import { updateRoles } from '../actions';
-import '../styles/app.css';
 
 let App = ({ dispatch }) => {
   // Ideally, we'd get the data server-side and return it with the initial bundle
