@@ -3,9 +3,10 @@ import { connect } from 'react-redux';
 
 let Event = ({ event }) => {
   return (
-  <div>
+  <div className="event-list-item">
     <h6>{event.title || event.name}</h6>
     <div>{event.description}</div>
+    <div>{event.date}</div>
   </div>);
 };
 

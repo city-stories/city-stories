@@ -46,3 +46,20 @@ html, body, #map {
     background-color: #F8F8F8;
     border-color: #E7E7E7;
 }
+
+.event-list-item {
+    padding: 1em;
+    border-bottom: 1px solid#ddd;
+    background: #F0F0F0;
+}
+
+.event-list-item h6 {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.eventList-container {
+    max-height: 800px;
+    overflow: scroll;
+    overflow-x: hidden;
+}

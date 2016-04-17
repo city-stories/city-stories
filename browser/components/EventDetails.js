@@ -29,12 +29,18 @@ const EventDetails = React.createClass({
         window.removeEventListener('showEventDetails', this.showEventDetails);
     },
     render(){
+        console.log(this.state.eventData)
+        var hide = (this.state.eventData.title === '')
+
         return (
             <aside>
-                <h2>Event Details</h2>
-                <h4>{this.state.eventData.title}</h4>
-                <p>{this.state.eventData.description}</p>
-                <hr />
+                <section hidden={hide}>
+                    <hr />
+                    <h2>Event Details</h2>
+                    <h4>{this.state.eventData.title}</h4>
+                    <p>{this.state.eventData.description}</p>
+                    <hr />
+                </section>
             </aside>
         )
     }
