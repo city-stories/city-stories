@@ -20,8 +20,8 @@ let EventMap = React.createClass({
 
         map = new Map("map", {
           basemap: "gray",
-          center: [-60, -10],
-          zoom: 4
+          center: [-122.334383, 47.613421],
+          zoom: 14
         });
 
         csv = new CSVLayer("/map", {
