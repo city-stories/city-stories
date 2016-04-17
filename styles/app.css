@@ -11,6 +11,21 @@ html, body, #map {
     padding: 0;
 }
 
- #map {
-     height: 1000px;
- }
+#map {
+    height: 1000px;
+}
+
+ .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:#1ABC9C;
+    background-color:#34495E;
+}
+
+.nav-pills > li.active > a:hover {
+    background-color: #34495E;
+    color:#1ABC9C;
+}
+
+.navbar-inverse {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
