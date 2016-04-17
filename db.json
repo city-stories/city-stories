@@ -1,1 +1,524 @@
-{"users":{"a56992de-abcf-4ff6-a4dd-5e473e495a5a":{"id":"a56992de-abcf-4ff6-a4dd-5e473e495a5a","name":"Doug Wade","role":"City Planner","email":"doug@dougwade.io"},"f5e82e5e-317b-4372-9c7b-f63283cc7a5f":{"id":"f5e82e5e-317b-4372-9c7b-f63283cc7a5f","Name":"Phillip Fry","role":["2"]},"8f6ecc94-5f18-4d00-9321-0522caf8b38a":{"id":"8f6ecc94-5f18-4d00-9321-0522caf8b38a","Name":"Elizabeth Warren","role":["3"]},"a4fd2a6d-9908-4441-9d16-52092397b47a":{"id":"a4fd2a6d-9908-4441-9d16-52092397b47a","Name":"Bernie Sander","role":["4"]},"6ecb9dcb-5443-4eb3-ad25-34af5a56999e":{"id":"6ecb9dcb-5443-4eb3-ad25-34af5a56999e","Name":"The One True Morty","role":["5"]},"323fd840-840a-4a6e-9893-04beae6eff06":{"id":"323fd840-840a-4a6e-9893-04beae6eff06","Name":"Bert Lamecaster","role":["6"]},"0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da":{"id":"0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da","Name":"John Oliver","role":["7"]},"456a66bd-8020-4e11-883a-0856c1efb5c1":{"id":"456a66bd-8020-4e11-883a-0856c1efb5c1","Name":"Jessica Jones","role":["0"]},"505b728f-e63c-479a-9fb1-8e80f8f54684":{"id":"505b728f-e63c-479a-9fb1-8e80f8f54684","Name":"Bruce Wayne","role":["0"]},"02a0ce26-8db0-40a5-978f-c95873d7c429":{"id":"02a0ce26-8db0-40a5-978f-c95873d7c429","Name":"Barry Allen","role":["0"]},"b26f9ad5-1192-4428-8994-ec70a78f05dc":{"id":"b26f9ad5-1192-4428-8994-ec70a78f05dc","Name":"Wally West","role":["0"]},"cea17e10-9bd3-4bce-aa23-cb1d2810f4dc":{"id":"cea17e10-9bd3-4bce-aa23-cb1d2810f4dc","Name":"Holder","role":["0"]},"c042bdd6-77b4-4be3-a06a-ae9f07e63077":{"id":"c042bdd6-77b4-4be3-a06a-ae9f07e63077","Name":"Daniel Tosh","role":["0"]},"8f273148-64b5-4e9c-87ef-5f9f2c51b414":{"id":"8f273148-64b5-4e9c-87ef-5f9f2c51b414","Name":"Kyle Raynor","role":["0"]},"52c30905-3604-47b6-afa9-a95927e273b9":{"id":"52c30905-3604-47b6-afa9-a95927e273b9","Name":"Terry Walsh","role":["0"]},"86973332-4f8a-4ff6-bf24-8a50d6b37a6d":{"id":"86973332-4f8a-4ff6-bf24-8a50d6b37a6d","Name":"Wade Thompson","role":["0"]},"649f9c99-1308-4026-a2d1-7ebd5b49b6b7":{"id":"649f9c99-1308-4026-a2d1-7ebd5b49b6b7","Name":"Bob Snyder","role":["0"]},"47c8d94d-bbf7-4b4f-9245-c2a46fdf06b5":{"id":"47c8d94d-bbf7-4b4f-9245-c2a46fdf06b5","Name":"Doug Wade","role":["0"]},"625997d3-8e7c-4269-9b2c-e268a9d9dbc7":{"id":"625997d3-8e7c-4269-9b2c-e268a9d9dbc7","Name":"Ryan Smith","role":["0"]},"0b2f8d96-ab94-417f-a8d4-0fed92ef51f7":{"id":"0b2f8d96-ab94-417f-a8d4-0fed92ef51f7","Name":"John User","role":["0"]},"611189e0-82f0-42c7-9356-ddf4978a9b59":{"id":"611189e0-82f0-42c7-9356-ddf4978a9b59","Name":"Jake Portal","role":["0"]},"c4e2098b-d69a-4c24-90e2-cb5fc80e4231":{"id":"c4e2098b-d69a-4c24-90e2-cb5fc80e4231","Name":"Jillian Evans","role":["0"]},"aea83724-488d-4945-8065-4f9508f9f17a":{"id":"aea83724-488d-4945-8065-4f9508f9f17a","Name":"Bruce Banner","role":["0"]},"f8d2fd10-e5ae-4120-a4bf-f4868e9deac4":{"id":"f8d2fd10-e5ae-4120-a4bf-f4868e9deac4","Name":"Sarah Silverman","role":["0"]},"79443f5f-d54d-4c88-acd9-da1e7192b012":{"id":"a56992de-abcf-4ff6-a4dd-5e473e495a5a","name":"Doug Wade","role":"City Planner","email":"doug@dougwade.io"}},"events":{"b318d4ba-75c5-43e9-ad65-950813b93756":{"id":"b318d4ba-75c5-43e9-ad65-950813b93756","name":"Angel Hackathon","latitude":"47.6062N","longitude":", 122.3321W","date":1460827061560},"1bab35f4-b2ab-48d3-b500-69d171805019":{"id":"1bab35f4-b2ab-48d3-b500-69d171805019","latitude":"47.606862","longitude":"-122.336123","poster":"a56992de-abcf-4ff6-a4dd-5e473e495a5a","category":["1"],"description":"Birtha is broken again.  We could use community suggestions.","title":"Birtha","date":"05/04/2016","time":"16:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6","456a66bd-8020-4e11-883a-0856c1efb5c1"]},"063534c6-0782-477a-be5e-08af3e59b3b9":{"id":"063534c6-0782-477a-be5e-08af3e59b3b9","latitude":"47.614976","longitude":"-122.335223","poster":"a56992de-abcf-4ff6-a4dd-5e473e495a5a","category":["1"],"description":"Look over Zoning rules.","Zoning review":"Puppython","date":"05/05/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"45f806fb-69bb-4866-a0a1-a4bf685dc1e6":{"id":"45f806fb-69bb-4866-a0a1-a4bf685dc1e6","latitude":"47.616876","longitude":"-122.336383","poster":"a56992de-abcf-4ff6-a4dd-5e473e495a5a","category":["1"],"description":"Help Puppies","title":"Puppython","date":"05/06/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6","f8d2fd10-e5ae-4120-a4bf-f4868e9deac4","52c30905-3604-47b6-afa9-a95927e273b9"]},"a30fec87-2e11-495c-a02d-033b655fa7fa":{"id":"a30fec87-2e11-495c-a02d-033b655fa7fa","latitude":"47.621198","longitude":"-122.336383","poster":"a56992de-abcf-4ff6-a4dd-5e473e495a5a","category":["1"],"description":"Plan for the future","title":"Cap-Hill 10-year plans.","date":"05/07/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"c7f88e45-05f1-4cbe-9c0c-fdfe5eeaaaaa":{"id":"c7f88e45-05f1-4cbe-9c0c-fdfe5eeaaaaa","latitude":"47.613421","longitude":"-122.334383","poster":"a56992de-abcf-4ff6-a4dd-5e473e495a5a","category":["1"],"description":"Help Kittens","title":"Kittenthon","date":"05/08/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"169e14f8-239e-48b1-be72-9e6a3da2299e":{"id":"169e14f8-239e-48b1-be72-9e6a3da2299e","latitude":"47.614731","longitude":"-122.335983","poster":"f5e82e5e-317b-4372-9c7b-f63283cc7a5f","category":["2"],"description":"Help us make our streets safer!","title":"Public Safety Meeting","date":"05/09/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"dbb9c3a8-10c9-4695-94a3-4fac9842109f":{"id":"dbb9c3a8-10c9-4695-94a3-4fac9842109f","latitude":"47.614976","longitude":"-122.336183","poster":"f5e82e5e-317b-4372-9c7b-f63283cc7a5f","category":["2"],"description":"Ever wanted to wear the badge?  Come to this informal meeting to find out more.","title":"Recruitment","date":"05/10/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"6169346c-e25c-4e4b-90eb-b4328c2e099c":{"id":"6169346c-e25c-4e4b-90eb-b4328c2e099c","latitude":"47.612711","longitude":"-122.336983","poster":"8f6ecc94-5f18-4d00-9321-0522caf8b38a","category":["3"],"description":"Raise money for future events","title":"Cap-Hill 10-year plans.","date":"05/11/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"c3623dc7-ab4d-4d47-a583-9d7a7f400c58":{"id":"c3623dc7-ab4d-4d47-a583-9d7a7f400c58","latitude":"47.613571","longitude":"-122.335211","poster":"8f6ecc94-5f18-4d00-9321-0522caf8b38a","category":["3"],"description":"Help Kittens","title":"Kittenthon","date":"05/12/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"da80656d-bf0e-4129-9950-629253bb2e03":{"id":"da80656d-bf0e-4129-9950-629253bb2e03","latitude":"47.612521","longitude":"-122.336483","poster":"a4fd2a6d-9908-4441-9d16-52092397b47a","category":["4"],"description":"Plan for the future","title":"Cap-Hill 10-year plans.","date":"05/13/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"cb0feb4c-e6a8-4718-a036-8d2018823464":{"id":"cb0feb4c-e6a8-4718-a036-8d2018823464","latitude":"47.613471","longitude":"-122.333411","poster":"a4fd2a6d-9908-4441-9d16-52092397b47a","category":["4"],"description":"Demo Event Text Filler","title":"Demo Event","date":"05/14/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6","0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da","52c30905-3604-47b6-afa9-a95927e273b9"]},"2097dbd7-c596-42b9-b376-54409c7fd2a3":{"id":"2097dbd7-c596-42b9-b376-54409c7fd2a3","latitude":"47.613323","longitude":"-122.332911","poster":"6ecb9dcb-5443-4eb3-ad25-34af5a56999e","category":["5"],"description":"Demo Event Text Filler","title":"Demo Event","date":"05/15/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6","52c30905-3604-47b6-afa9-a95927e273b9"]},"60d7c38f-28be-4547-b2db-f7697d0c7dd4":{"id":"60d7c38f-28be-4547-b2db-f7697d0c7dd4","latitude":"47.612212","longitude":"-122.334111","poster":"6ecb9dcb-5443-4eb3-ad25-34af5a56999e","category":["5"],"description":"Demo Event Text Filler","title":"Demo Event","date":"05/16/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"2b920431-e2d6-40e3-85fb-ca08dd7fb5ae":{"id":"2b920431-e2d6-40e3-85fb-ca08dd7fb5ae","latitude":"47.604322","longitude":"-122.331337","poster":"323fd840-840a-4a6e-9893-04beae6eff06","category":["6"],"description":"Demo Event Text Filler","title":"Demo Event","date":"05/17/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6","52c30905-3604-47b6-afa9-a95927e273b9"]},"48f3a745-4bb8-4b77-afcf-72887882ba28":{"id":"48f3a745-4bb8-4b77-afcf-72887882ba28","latitude":"47.622432","longitude":"-122.334231","poster":"323fd840-840a-4a6e-9893-04beae6eff06","category":["6"],"description":"Demo Event Text Filler","title":"Demo Event","date":"05/18/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"c0dcafd8-8191-4adf-aa66-5a28b5d4d05a":{"id":"c0dcafd8-8191-4adf-aa66-5a28b5d4d05a","latitude":"47.621432","longitude":"-122.332347","poster":"0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da","category":["7"],"description":"Demo Event Text Filler","title":"Demo Event","date":"05/19/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6","52c30905-3604-47b6-afa9-a95927e273b9"]},"1f842769-f8d2-4924-9103-edd2f5cb01ad":{"id":"1f842769-f8d2-4924-9103-edd2f5cb01ad","latitude":"47.603412","longitude":"-122.334711","poster":"0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da","category":["7"],"description":"Demo Event Text Filler","title":"Demo Event","date":"05/20/2016","time":"13:00","attendees":["a56992de-abcf-4ff6-a4dd-5e473e495a5a","c5afcef9-3592-4c09-bd57-adc23a88d4b6"]},"957f7255-e4e0-45eb-9923-19e149c6afa7":{"id":"b318d4ba-75c5-43e9-ad65-950813b93756","name":"Angel Hackathon","latitude":"47.6062N","longitude":", 122.3321W","date":1460827061560}},"roles":{"0":{"id":"0","name":"Public User"},"1":{"id":"1","name":"City Planning"},"2":{"id":"2","name":"Law Enforcement"},"3":{"id":"3","name":"Fire Department"},"4":{"id":"4","name":"Parks and Rec"},"5":{"id":"5","name":"Neighborhood Organizer"},"6":{"id":"6","name":"Animal Control"},"7":{"id":"7","name":"Utilities"}}}
+{
+  "users": {
+    "a56992de-abcf-4ff6-a4dd-5e473e495a5a": {
+      "id": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "name": "Doug Wade",
+      "role": "City Planner",
+      "email": "doug@dougwade.io"
+    },
+    "f5e82e5e-317b-4372-9c7b-f63283cc7a5f": {
+      "id": "f5e82e5e-317b-4372-9c7b-f63283cc7a5f",
+      "Name": "Phillip Fry",
+      "role": [
+        "2"
+      ]
+    },
+    "8f6ecc94-5f18-4d00-9321-0522caf8b38a": {
+      "id": "8f6ecc94-5f18-4d00-9321-0522caf8b38a",
+      "Name": "Elizabeth Warren",
+      "role": [
+        "3"
+      ]
+    },
+    "a4fd2a6d-9908-4441-9d16-52092397b47a": {
+      "id": "a4fd2a6d-9908-4441-9d16-52092397b47a",
+      "Name": "Bernie Sander",
+      "role": [
+        "4"
+      ]
+    },
+    "6ecb9dcb-5443-4eb3-ad25-34af5a56999e": {
+      "id": "6ecb9dcb-5443-4eb3-ad25-34af5a56999e",
+      "Name": "The One True Morty",
+      "role": [
+        "5"
+      ]
+    },
+    "323fd840-840a-4a6e-9893-04beae6eff06": {
+      "id": "323fd840-840a-4a6e-9893-04beae6eff06",
+      "Name": "Bert Lamecaster",
+      "role": [
+        "6"
+      ]
+    },
+    "0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da": {
+      "id": "0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da",
+      "Name": "John Oliver",
+      "role": [
+        "7"
+      ]
+    },
+    "456a66bd-8020-4e11-883a-0856c1efb5c1": {
+      "id": "456a66bd-8020-4e11-883a-0856c1efb5c1",
+      "Name": "Jessica Jones",
+      "role": [
+        "0"
+      ]
+    },
+    "505b728f-e63c-479a-9fb1-8e80f8f54684": {
+      "id": "505b728f-e63c-479a-9fb1-8e80f8f54684",
+      "Name": "Bruce Wayne",
+      "role": [
+        "0"
+      ]
+    },
+    "02a0ce26-8db0-40a5-978f-c95873d7c429": {
+      "id": "02a0ce26-8db0-40a5-978f-c95873d7c429",
+      "Name": "Barry Allen",
+      "role": [
+        "0"
+      ]
+    },
+    "b26f9ad5-1192-4428-8994-ec70a78f05dc": {
+      "id": "b26f9ad5-1192-4428-8994-ec70a78f05dc",
+      "Name": "Wally West",
+      "role": [
+        "0"
+      ]
+    },
+    "cea17e10-9bd3-4bce-aa23-cb1d2810f4dc": {
+      "id": "cea17e10-9bd3-4bce-aa23-cb1d2810f4dc",
+      "Name": "Holder",
+      "role": [
+        "0"
+      ]
+    },
+    "c042bdd6-77b4-4be3-a06a-ae9f07e63077": {
+      "id": "c042bdd6-77b4-4be3-a06a-ae9f07e63077",
+      "Name": "Daniel Tosh",
+      "role": [
+        "0"
+      ]
+    },
+    "8f273148-64b5-4e9c-87ef-5f9f2c51b414": {
+      "id": "8f273148-64b5-4e9c-87ef-5f9f2c51b414",
+      "Name": "Kyle Raynor",
+      "role": [
+        "0"
+      ]
+    },
+    "52c30905-3604-47b6-afa9-a95927e273b9": {
+      "id": "52c30905-3604-47b6-afa9-a95927e273b9",
+      "Name": "Terry Walsh",
+      "role": [
+        "0"
+      ]
+    },
+    "86973332-4f8a-4ff6-bf24-8a50d6b37a6d": {
+      "id": "86973332-4f8a-4ff6-bf24-8a50d6b37a6d",
+      "Name": "Wade Thompson",
+      "role": [
+        "0"
+      ]
+    },
+    "649f9c99-1308-4026-a2d1-7ebd5b49b6b7": {
+      "id": "649f9c99-1308-4026-a2d1-7ebd5b49b6b7",
+      "Name": "Bob Snyder",
+      "role": [
+        "0"
+      ]
+    },
+    "47c8d94d-bbf7-4b4f-9245-c2a46fdf06b5": {
+      "id": "47c8d94d-bbf7-4b4f-9245-c2a46fdf06b5",
+      "Name": "Doug Wade",
+      "role": [
+        "0"
+      ]
+    },
+    "625997d3-8e7c-4269-9b2c-e268a9d9dbc7": {
+      "id": "625997d3-8e7c-4269-9b2c-e268a9d9dbc7",
+      "Name": "Ryan Smith",
+      "role": [
+        "0"
+      ]
+    },
+    "0b2f8d96-ab94-417f-a8d4-0fed92ef51f7": {
+      "id": "0b2f8d96-ab94-417f-a8d4-0fed92ef51f7",
+      "Name": "John User",
+      "role": [
+        "0"
+      ]
+    },
+    "611189e0-82f0-42c7-9356-ddf4978a9b59": {
+      "id": "611189e0-82f0-42c7-9356-ddf4978a9b59",
+      "Name": "Jake Portal",
+      "role": [
+        "0"
+      ]
+    },
+    "c4e2098b-d69a-4c24-90e2-cb5fc80e4231": {
+      "id": "c4e2098b-d69a-4c24-90e2-cb5fc80e4231",
+      "Name": "Jillian Evans",
+      "role": [
+        "0"
+      ]
+    },
+    "aea83724-488d-4945-8065-4f9508f9f17a": {
+      "id": "aea83724-488d-4945-8065-4f9508f9f17a",
+      "Name": "Bruce Banner",
+      "role": [
+        "0"
+      ]
+    },
+    "f8d2fd10-e5ae-4120-a4bf-f4868e9deac4": {
+      "id": "f8d2fd10-e5ae-4120-a4bf-f4868e9deac4",
+      "Name": "Sarah Silverman",
+      "role": [
+        "0"
+      ]
+    },
+    "79443f5f-d54d-4c88-acd9-da1e7192b012": {
+      "id": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "name": "Doug Wade",
+      "role": "City Planner",
+      "email": "doug@dougwade.io"
+    },
+    "5fad36c4-34a2-4b40-8200-d455d67567e1": {
+      "id": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "name": "Doug Wade",
+      "role": "City Planner",
+      "email": "doug@dougwade.io"
+    }
+  },
+  "events": {
+    "b318d4ba-75c5-43e9-ad65-950813b93756": {
+      "id": "b318d4ba-75c5-43e9-ad65-950813b93756",
+      "title": "Angel Hackathon",
+      "description": "Hack on things",
+      "latitude": "47.6062N",
+      "longitude": ", 122.3321W",
+      "date": 1460827061560
+    },
+    "1bab35f4-b2ab-48d3-b500-69d171805019": {
+      "id": "1bab35f4-b2ab-48d3-b500-69d171805019",
+      "latitude": "47.606862",
+      "longitude": "-122.336123",
+      "poster": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "category": [
+        "1"
+      ],
+      "description": "Birtha is broken again.  We could use community suggestions.",
+      "title": "Birtha",
+      "date": "05/04/2016",
+      "time": "16:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6",
+        "456a66bd-8020-4e11-883a-0856c1efb5c1"
+      ]
+    },
+    "063534c6-0782-477a-be5e-08af3e59b3b9": {
+      "id": "063534c6-0782-477a-be5e-08af3e59b3b9",
+      "latitude": "47.614976",
+      "longitude": "-122.335223",
+      "poster": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "category": [
+        "1"
+      ],
+      "description": "Look over Zoning rules.",
+      "title": "Puppython",
+      "date": "05/05/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "45f806fb-69bb-4866-a0a1-a4bf685dc1e6": {
+      "id": "45f806fb-69bb-4866-a0a1-a4bf685dc1e6",
+      "latitude": "47.616876",
+      "longitude": "-122.336383",
+      "poster": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "category": [
+        "1"
+      ],
+      "description": "Help Puppies",
+      "title": "Puppython",
+      "date": "05/06/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6",
+        "f8d2fd10-e5ae-4120-a4bf-f4868e9deac4",
+        "52c30905-3604-47b6-afa9-a95927e273b9"
+      ]
+    },
+    "a30fec87-2e11-495c-a02d-033b655fa7fa": {
+      "id": "a30fec87-2e11-495c-a02d-033b655fa7fa",
+      "latitude": "47.621198",
+      "longitude": "-122.336383",
+      "poster": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "category": [
+        "1"
+      ],
+      "description": "Plan for the future",
+      "title": "Cap-Hill 10-year plans.",
+      "date": "05/07/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "c7f88e45-05f1-4cbe-9c0c-fdfe5eeaaaaa": {
+      "id": "c7f88e45-05f1-4cbe-9c0c-fdfe5eeaaaaa",
+      "latitude": "47.613421",
+      "longitude": "-122.334383",
+      "poster": "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+      "category": [
+        "1"
+      ],
+      "description": "Help Kittens",
+      "title": "Kittenthon",
+      "date": "05/08/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "169e14f8-239e-48b1-be72-9e6a3da2299e": {
+      "id": "169e14f8-239e-48b1-be72-9e6a3da2299e",
+      "latitude": "47.614731",
+      "longitude": "-122.335983",
+      "poster": "f5e82e5e-317b-4372-9c7b-f63283cc7a5f",
+      "category": [
+        "2"
+      ],
+      "description": "Help us make our streets safer!",
+      "title": "Public Safety Meeting",
+      "date": "05/09/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "dbb9c3a8-10c9-4695-94a3-4fac9842109f": {
+      "id": "dbb9c3a8-10c9-4695-94a3-4fac9842109f",
+      "latitude": "47.614976",
+      "longitude": "-122.336183",
+      "poster": "f5e82e5e-317b-4372-9c7b-f63283cc7a5f",
+      "category": [
+        "2"
+      ],
+      "description": "Ever wanted to wear the badge?  Come to this informal meeting to find out more.",
+      "title": "Recruitment",
+      "date": "05/10/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "6169346c-e25c-4e4b-90eb-b4328c2e099c": {
+      "id": "6169346c-e25c-4e4b-90eb-b4328c2e099c",
+      "latitude": "47.612711",
+      "longitude": "-122.336983",
+      "poster": "8f6ecc94-5f18-4d00-9321-0522caf8b38a",
+      "category": [
+        "3"
+      ],
+      "description": "Raise money for future events",
+      "title": "Cap-Hill 10-year plans.",
+      "date": "05/11/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "c3623dc7-ab4d-4d47-a583-9d7a7f400c58": {
+      "id": "c3623dc7-ab4d-4d47-a583-9d7a7f400c58",
+      "latitude": "47.613571",
+      "longitude": "-122.335211",
+      "poster": "8f6ecc94-5f18-4d00-9321-0522caf8b38a",
+      "category": [
+        "3"
+      ],
+      "description": "Help Kittens",
+      "title": "Kittenthon",
+      "date": "05/12/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "da80656d-bf0e-4129-9950-629253bb2e03": {
+      "id": "da80656d-bf0e-4129-9950-629253bb2e03",
+      "latitude": "47.612521",
+      "longitude": "-122.336483",
+      "poster": "a4fd2a6d-9908-4441-9d16-52092397b47a",
+      "category": [
+        "4"
+      ],
+      "description": "Plan for the future",
+      "title": "Cap-Hill 10-year plans.",
+      "date": "05/13/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "cb0feb4c-e6a8-4718-a036-8d2018823464": {
+      "id": "cb0feb4c-e6a8-4718-a036-8d2018823464",
+      "latitude": "47.613471",
+      "longitude": "-122.333411",
+      "poster": "a4fd2a6d-9908-4441-9d16-52092397b47a",
+      "category": [
+        "4"
+      ],
+      "description": "Demo Event Text Filler",
+      "title": "Demo Event",
+      "date": "05/14/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6",
+        "0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da",
+        "52c30905-3604-47b6-afa9-a95927e273b9"
+      ]
+    },
+    "2097dbd7-c596-42b9-b376-54409c7fd2a3": {
+      "id": "2097dbd7-c596-42b9-b376-54409c7fd2a3",
+      "latitude": "47.613323",
+      "longitude": "-122.332911",
+      "poster": "6ecb9dcb-5443-4eb3-ad25-34af5a56999e",
+      "category": [
+        "5"
+      ],
+      "description": "Demo Event Text Filler",
+      "title": "Demo Event",
+      "date": "05/15/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6",
+        "52c30905-3604-47b6-afa9-a95927e273b9"
+      ]
+    },
+    "60d7c38f-28be-4547-b2db-f7697d0c7dd4": {
+      "id": "60d7c38f-28be-4547-b2db-f7697d0c7dd4",
+      "latitude": "47.612212",
+      "longitude": "-122.334111",
+      "poster": "6ecb9dcb-5443-4eb3-ad25-34af5a56999e",
+      "category": [
+        "5"
+      ],
+      "description": "Demo Event Text Filler",
+      "title": "Demo Event",
+      "date": "05/16/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "2b920431-e2d6-40e3-85fb-ca08dd7fb5ae": {
+      "id": "2b920431-e2d6-40e3-85fb-ca08dd7fb5ae",
+      "latitude": "47.604322",
+      "longitude": "-122.331337",
+      "poster": "323fd840-840a-4a6e-9893-04beae6eff06",
+      "category": [
+        "6"
+      ],
+      "description": "Demo Event Text Filler",
+      "title": "Demo Event",
+      "date": "05/17/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6",
+        "52c30905-3604-47b6-afa9-a95927e273b9"
+      ]
+    },
+    "48f3a745-4bb8-4b77-afcf-72887882ba28": {
+      "id": "48f3a745-4bb8-4b77-afcf-72887882ba28",
+      "latitude": "47.622432",
+      "longitude": "-122.334231",
+      "poster": "323fd840-840a-4a6e-9893-04beae6eff06",
+      "category": [
+        "6"
+      ],
+      "description": "Demo Event Text Filler",
+      "title": "Demo Event",
+      "date": "05/18/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    },
+    "c0dcafd8-8191-4adf-aa66-5a28b5d4d05a": {
+      "id": "c0dcafd8-8191-4adf-aa66-5a28b5d4d05a",
+      "latitude": "47.621432",
+      "longitude": "-122.332347",
+      "poster": "0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da",
+      "category": [
+        "7"
+      ],
+      "description": "Demo Event Text Filler",
+      "title": "Demo Event",
+      "date": "05/19/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6",
+        "52c30905-3604-47b6-afa9-a95927e273b9"
+      ]
+    },
+    "1f842769-f8d2-4924-9103-edd2f5cb01ad": {
+      "id": "1f842769-f8d2-4924-9103-edd2f5cb01ad",
+      "latitude": "47.603412",
+      "longitude": "-122.334711",
+      "poster": "0ff27fb0-ffd4-43c9-ad66-47d84cc1e6da",
+      "category": [
+        "7"
+      ],
+      "description": "Demo Event Text Filler",
+      "title": "Demo Event",
+      "date": "05/20/2016",
+      "time": "13:00",
+      "attendees": [
+        "a56992de-abcf-4ff6-a4dd-5e473e495a5a",
+        "c5afcef9-3592-4c09-bd57-adc23a88d4b6"
+      ]
+    }
+  },
+  "roles": {
+    "0": {
+      "id": "0",
+      "name": "Public User"
+    },
+    "1": {
+      "id": "1",
+      "name": "City Planning"
+    },
+    "2": {
+      "id": "2",
+      "name": "Law Enforcement"
+    },
+    "3": {
+      "id": "3",
+      "name": "Fire Department"
+    },
+    "4": {
+      "id": "4",
+      "name": "Parks and Rec"
+    },
+    "5": {
+      "id": "5",
+      "name": "Neighborhood Organizer"
+    },
+    "6": {
+      "id": "6",
+      "name": "Animal Control"
+    },
+    "7": {
+      "id": "7",
+      "name": "Utilities"
+    }
+  }
+}

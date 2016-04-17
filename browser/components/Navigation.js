@@ -1,7 +1,5 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import Nav from 'react-bootstrap/lib/Nav';
-import NavItem from 'react-bootstrap/lib/NavItem';
 
 const mapStateToProps = (state) => {
   return {
@@ -13,21 +11,15 @@ let Navigation = function ({ roles }) {
   const navItems = [];
   Object.keys(roles).forEach((id) => {
     let role = roles[id];
-    navItems.push(<NavItem eventKey={role.name} href="/home">{role.name}</NavItem>);
+    navItems.push(<span className="nav-pills">{role.name}</span>);
   });
   return (
-    <section>
-      <Nav bsStyle="tabs" justified activeKey={1}>
-        {navItems}
-      </Nav>
-    </section>
+    <div>{navItems}</div>
   );
 };
 
 Navigation.propTypes = {
-  roles: React.PropTypes.arrayOf(React.PropTypes.shape({
-    name: React.PropTypes.string.isRequired
-  }))
+  roles: React.PropTypes.object
 };
 
 Navigation = connect(mapStateToProps)(Navigation);

@@ -12,3 +12,7 @@ export const toggleTodo = ({ id, done }) => {
 export const updateRoles = ({ roles }) => {
   return { type: 'UPDATE_ROLES', roles };
 };
+
+export const updateEvents = ({ events }) => {
+  return { type: 'UPDATE_EVENTS', events };
+};

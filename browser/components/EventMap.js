@@ -1,6 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux';
 import EventDetails from './EventDetails';
+import EventList from './EventList';
+import Navigation from './Navigation';
 
 const mapStateToProps = (state) => {
   return {
@@ -20,8 +22,8 @@ let EventMap = React.createClass({
 
         map = new Map("map", {
           basemap: "gray",
-          center: [-60, -10],
-          zoom: 4
+          center: [-122.335211, 47.613571],
+          zoom: 17
         });
 
         csv = new CSVLayer("/map", {
@@ -35,6 +37,7 @@ let EventMap = React.createClass({
 
         csv.on('click', function (event) {
 
+          console.log(event);
             var eventDetails = new CustomEvent("showEventDetails", {
                 detail: {
                     data: event.graphic.attributes
@@ -102,18 +105,7 @@ let EventMap = React.createClass({
                   <div id="navigation" className="col-md-5">
                     <h2>Navigation</h2>
                     <div id="section">
-                      <ul className="nav nav-pills nav-justified">
-
-                        <li className="active"><a data-toggle="pill" href="#all"><span className="glyphicon glyphicon-eye-open" aria-hidden="true"></span> - ALL</a></li>
-
-                        <li><a data-toggle="pill" href="#parks"><span className="glyphicon glyphicon-tree-conifer" aria-hidden="true"></span>- Parks & Rec</a></li>
-
-                        <li><a data-toggle="pill" href="#emergency"><span className="glyphicon glyphicon-fire" aria-hidden="true"></span> - Emergency</a></li>
-
-                        <li><a data-toggle="pill" href="#animal"><span className="glyphicon glyphicon-home" aria-hidden="true"></span> - Animal Ctrl.</a></li>
-
-                        <li><a data-toggle="pill" href="#events"><span className="glyphicon glyphicon-calendar" aria-hidden="true"></span> - Events</a></li>
-
+                      <Navigation />
                         <div className="tab-content">
 
                           <div id="all" className="tab-pane fade in active">
@@ -137,9 +129,8 @@ let EventMap = React.createClass({
                             <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
                           </div>
                           <EventDetails />
+                          <EventList />
                         </div>
-
-                      </ul>
                     </div>
                 </div>
                   <div className="navbar navbar-inverse navbar-fixed-bottom">

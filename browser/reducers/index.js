@@ -1,4 +1,4 @@
-export default function application(state = { excitement: 0, todos: [], roles: {1: { id: '1', name: 'City Planning' }, 2: { id: '2', name: 'Law Enforcement' } } }, action) {
+export default function application(state = { excitement: 0, todos: [], events: {}, roles: {1: { id: '1', name: 'City Planning' }, 2: { id: '2', name: 'Law Enforcement' } } }, action) {
   let newState;
   switch (action.type) {
   case 'GET_EXCITED': {
@@ -16,6 +16,12 @@ export default function application(state = { excitement: 0, todos: [], roles: {
   case 'UPDATE_ROLES': {
     newState = Object.assign({}, state, {
       roles: action.roles
+    });
+    break;
+  }
+  case 'UPDATE_EVENTS': {
+    newState = Object.assign({}, state, {
+      events: action.events
     });
     break;
   }
