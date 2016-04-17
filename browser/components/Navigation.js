@@ -11,7 +11,8 @@ const mapStateToProps = (state) => {
 
 let Navigation = function ({ roles }) {
   const navItems = [];
-  roles.forEach((role) => {
+  Object.keys(roles).forEach((id) => {
+    let role = roles[id];
     navItems.push(<NavItem eventKey={role.name} href="/home">{role.name}</NavItem>);
   });
   return (

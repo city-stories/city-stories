@@ -1,5 +1,21 @@
 body {
   font:400 1rem "Helvetica Neue",Helvetica,Arial,sans-serif;
   line-height:1.5;
-  color:#333;
+  color:#34495E;
+  margin-bottom:80px;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color:#1ABC9C;
+    background-color:#34495E;
+    }
+
+ .nav-pills > li.active > a:hover {
+            background-color: #34495E;
+            color:#1ABC9C;
+        }
+
+.navbar-inverse {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
 }

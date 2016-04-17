@@ -1,4 +1,4 @@
-# city-stories
+# city-stories [![Build Status](https://travis-ci.org/city-stories/city-stories.svg?branch=master)](https://travis-ci.org/city-stories/city-stories)
 > A web application using koa, redux, and react
 
 

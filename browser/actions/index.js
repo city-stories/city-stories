@@ -8,3 +8,7 @@ export const addTodo = ({ name, link }) => {
 export const toggleTodo = ({ id, done }) => {
   return { type: 'TOGGLE_TODO', id, done };
 };
+
+export const updateRoles = ({ roles }) => {
+  return { type: 'UPDATE_ROLES', roles };
+};
