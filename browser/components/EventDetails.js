@@ -19,7 +19,6 @@ const EventDetails = React.createClass({
             <aside>
                 <h3>Event Details</h3>
                 <div>
-                  <div>{JSON.stringify(this.state.selected)}</div>
                   <div>{this.state.selected.name || this.state.selected.title}</div>
                   <div>{this.state.selected.description}</div>
                 </div>

@@ -37,7 +37,6 @@ let EventMap = React.createClass({
 
         csv.on('click', function (event) {
 
-          console.log(event);
             var eventDetails = new CustomEvent("showEventDetails", {
                 detail: {
                     data: event.graphic.attributes
