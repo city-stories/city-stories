@@ -105,31 +105,8 @@ let EventMap = React.createClass({
                     <h2>Navigation</h2>
                     <div id="section">
                       <Navigation />
-                        <div className="tab-content">
-
-                          <div id="all" className="tab-pane fade in active">
-                            <h3>All</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                          </div>
-                          <div id="parks" className="tab-pane fade">
-                            <h3>Parks</h3>
-                            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                          </div>
-                          <div id="emergency" className="tab-pane fade">
-                            <h3>Emergency</h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                          </div>
-                          <div id="animal" className="tab-pane fade">
-                            <h3>Animal</h3>
-                            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                          </div>
-                          <div id="events" className="tab-pane fade">
-                            <h3>Events</h3>
-                            <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                          </div>
-                          <EventDetails />
-                          <EventList />
-                        </div>
+                      <EventDetails />
+                      <EventList />
                     </div>
                 </div>
                   <div className="navbar navbar-inverse navbar-fixed-bottom">
