@@ -1,13 +1,10 @@
 import React from 'react';
-import HelloWorld from './HelloWorld';
 import EventMap from './EventMap';
-import Navigation from './Navigation';
 import { connect } from 'react-redux';
 import { updateRoles } from '../actions';
 import '../styles/app.css';
 
 let App = ({ dispatch }) => {
-  // Ideally, we'd get the data server-side and return it with the initial bundle
   var rolesReq = new XMLHttpRequest();
   rolesReq.addEventListener('load', function () {
     dispatch(updateRoles({ roles: JSON.parse(this.responseText) }));

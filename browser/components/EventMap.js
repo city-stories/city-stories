@@ -10,7 +10,7 @@ const mapStateToProps = (state) => {
 
 let EventMap = React.createClass({
     componentDidMount(){
-        const { Map, Color, InfoTemplate, urlUtils } = window.esri;
+        const { Map, Color } = window.esri;
         const CSVLayer =  window.esri.layers.CSVLayer;
         const SimpleMarkerSymbol =  window.esri.symbol.SimpleMarkerSymbol;
         const SimpleRenderer =  window.esri.renderer.SimpleRenderer;
